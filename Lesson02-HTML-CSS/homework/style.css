@@ -1,0 +1,42 @@
+h1 {
+    color: rgb(255, 145, 0);
+}
+#bigPic {
+    height : 300px;
+}
+#smallPic {
+    height : 50px;
+    width : 50px;
+}
+
+img {
+    width : 400px;
+}
+#thirdDiv {
+    height : 600px;
+    width : 500px;
+    background-color: rgb(0, 7, 100);
+    padding : 50px;
+    border : 5px solid black;
+
+    
+}
+#spanId {
+    font-size : 18px;
+    margin : 50px;
+}
+body {
+    background-image : url(https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1275&q=80);
+}
+body {
+    text-align: center;
+    
+}
+div {
+    background-color: white;
+    width: 600px;
+    border: 5px solid black;
+}
+div, .divClass, #thirdDiv {
+    display : inline-block;
+}
