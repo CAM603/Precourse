@@ -6,17 +6,15 @@ function returnFirst(arr) {
 }
 
 function returnLast(arr) {
-  // return the last item of the array
+  return arr[arr.length - 1]
 }
 
 function getArrayLength(arr) {
-  // return the length of the array
+  return arr.length;
 }
 
 function incrementByOne(arr) {
-  // arr is an array of integers  
-  // increase each integer by one
-  // return the array
+  return arr.map(a => a + 1);
 }
 
 function addItemToArray(arr, item) {
